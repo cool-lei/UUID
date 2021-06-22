@@ -1,0 +1,9 @@
+version: '3'
+services:
+  test:
+    image: mcr.microsoft.com/dotnet/sdk:5.0
+    volumes:
+      - .:/code
+    command:
+      - /bin/bash
+      - /code/run-tests.sh
