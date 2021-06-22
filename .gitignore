@@ -1,0 +1,8 @@
+*.suo
+*.user
+.idea
+.DS_Store
+_ReSharper.*
+bin
+obj
+packages
